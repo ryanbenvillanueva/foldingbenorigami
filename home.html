@@ -1,11 +1,13 @@
 <meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="IE-Edge">
-	<title>FoldingBen</title>
+	<title>FoldingBen - Home</title>
 	<!-- font awesome -->
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
 	<!-- bootstrap css -->
 	<link rel="stylesheet" type="text/css" href="./assets/css/bootstrap.css">
+	<!-- animate.css -->
+	<link rel="stylesheet" type="text/css" href="./assets/css/animate.css">
 	<!-- personalized css -->
 	<link rel="stylesheet" type="text/css" href="./assets/css/style.css">
 	<!-- my favicon -->
@@ -24,14 +26,15 @@
 <body>
 	<header>
 		<nav class="navbar navbar-expand-lg navbar-dark bg-danger sticky-top">
-			<a class="navbar-brand" href="index.html">FoldingBen</a>
+			<a class="navbar-brand" href="index.html"><img src="./assets/img/logo.png">FoldingBen</a>
 			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
 				<span class="navbar-toggler-icon"></span>
 			</button>
 			<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
 				<div class="navbar-nav ml-auto">
-					<a class="nav-item nav-link active" href="home.html">Home <!--<span class="sr-only">(current)</span>--></a>
+					<a class="nav-item nav-link active" href="home.html">Home</a>
 					<a class="nav-item nav-link" href="about.html">About</a>
+					<a class="nav-item nav-link" href="diagrams.html">Diagrams</a>
 					<a class="nav-item nav-link" href="gallery.html">Gallery</a>
 					<a class="nav-item nav-link" href="videos.html">Videos</a>
 					<a class="nav-item nav-link" href="contact.html">Contact</a>
@@ -40,29 +43,40 @@
 		</nav>
 	</header>
 	<div class="container">
-		<div id="productCarousel" class="carousel-slide" data-ride="carousel">
-			<div class="carousel-inner">
-				<div class="carousel-item active">
-					<img src="./assets/img/origami.png">
-				</div>
-				<div class="carousel-item">
-					<img src="./assets/img/origami.png">
-				</div>
-				<div class="carousel-item">
-					<img src="./assets/img/origami.png">
-				</div>
-			</div>
+		<div class="jumbotron">
+			<h1 class="text-center text-dark animated pulse mb-0 origami-font pt-5 pb-5">FoldingBen Origami</h1>
 		</div>
 	</div>
 	<div class="container">
-		<div>
-			<h1>What's new</h1>
-		</div>
 		<div class="row">
+			
+		</div>
+	</div>
+	<!-- <div class="container">
+		<div id="productCarousel" class="carousel-slide" data-ride="carousel">
+			<div class="carousel-inner">
+				<div class="carousel-item active">
+					<img src="https://media.giphy.com/media/BU5j1oVls8rXG/giphy-downsized.gif">
+				</div>
+				<div class="carousel-item">
+					<img src="./assets/img/origami.png">
+				</div>
+				<div class="carousel-item">
+					<img src="./assets/img/origami.png">
+				</div>
+			</div>
+		</div>
+	</div> -->
+	<div class="container">
+		<div>
+			<h2 class="text-center origami-font mt-5">Welcome to my origami page!</h2>
+			<p class="lead text-center">Check out diagrams, photos, and videos of models that I have folded. Enjoy and have fun!</p>
+		</div>
+		<div class="row mt-5">
 			<div class="col-lg-4">
 				<div class="card">
 					<div class="card-body">
-						<h5 class="card-title">Card title</h5>
+						<h3 class="card-title origami-font">Diagrams</h3>
     					<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
     					<a href="#" class="btn btn-primary">Go somewhere</a>
 					</div>
@@ -71,7 +85,7 @@
 			<div class="col-lg-4">
 				<div class="card">
 					<div class="card-body">
-						<h5 class="card-title">Card title</h5>
+						<h3 class="card-title origami-font">Gallery</h3>
     					<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
     					<a href="#" class="btn btn-primary">Go somewhere</a>
 					</div>
@@ -80,7 +94,7 @@
 			<div class="col-lg-4">
 				<div class="card">
 					<div class="card-body">
-						<h5 class="card-title">Card title</h5>
+						<h3 class="card-title origami-font">Videos</h3>
     					<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
     					<a href="#" class="btn btn-primary">Go somewhere</a>
 					</div>
@@ -88,7 +102,7 @@
 			</div>
 		</div>
 	</div>
-	<footer>
+	<footer class="bg-danger">
 		<div class="container">
 			<div class="row">
 				<div class="col-sm-6 col-md-6 col-lg-6">
