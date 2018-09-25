@@ -108,6 +108,7 @@ footer .fab {
 	background-image: url(../img/landing.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
+	background-position: center;
 
 }
 
@@ -155,35 +156,6 @@ footer .fab {
 
 /* About Page Styles */
 
-
-/*.jumbotron {
-	background-color: #141414; /*off black*/
-	/*height: 90vh;*/
-/*	border-radius: 0;
-}*/
-
-/*#about-landing {
-	color: #f2f2f2; /*off white*/
-/*	font-size: 5em;
-	padding-top: 20vh;
-	letter-spacing: 5px;
-}
-
-#mission {
-	height: 100%;
-	background-color: #141414;
-	color: #f2f2f2;
-}
-
-#vision {
-	height: 100%;
-	background-color: #f2f2f2;
-	color: #141414;
-}
-
-.about-tags {
-	font-weight: bold;
-}*/
 
 /********************************************************/
 /* Video Page Styles */
